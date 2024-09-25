@@ -82,9 +82,10 @@ const Projects = () => {
           "Responsive design for all devices (desktop, tablet, mobile)",
           "Uses TMDB API to fetch real-time data on movies",
           "Search functionality to explore a wide range of films",
-          "Display detailed information on movie ratings, release dates, and overviews",
-          "Styled with Tailwind CSS for a clean and modern look"
-        ]
+          "Displays detailed information on movie ratings, release dates, and overviews",
+          "Styled with Tailwind CSS for a clean and modern look",
+          "Implements a loading effect using React Suspense with a fallback for smoother data fetching"
+        ]        
       }
     ];
   
@@ -103,8 +104,10 @@ const Projects = () => {
           "Search functionality to explore a wide range of ReactJS discussions",
           "Displays detailed information on post titles, authors, and upvotes",
           "Styled with Tailwind CSS for a clean and modern look",
-          "Includes dark mode for enhanced accessibility"
-        ]
+          "Includes dark mode for enhanced accessibility",
+          "Uses React Suspense with a fallback skeleton for smoother data loading",
+          "Built with TypeScript for type safety and better developer experience"
+        ]        
       },
       {
         title: "My Bhakri",

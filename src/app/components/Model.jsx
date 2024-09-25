@@ -24,13 +24,13 @@ const Model = ({ selectedProject }) => {
             </h3>
             <div className="flex gap-3 mt-3">
               <Link
-                href={`${selectedProject.liveLink}`}
+                href={`${selectedProject.githubLink}`}
                 className="text-blue-500 hover:text-blue-700 font-bold underline"
               >
                 Github
               </Link>
               <Link
-                href={`${selectedProject.githubLink}`}
+                href={`${selectedProject.liveLink}`}
                 className="text-blue-500 hover:text-blue-700 font-bold underline"
               >
                 Live
