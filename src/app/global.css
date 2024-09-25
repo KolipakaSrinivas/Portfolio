@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,body {
+        margin: 0;
+        height: 100%;
+    }
+    body {
+        background: #2c3036;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@keyframes text-animation {
+    0%,
+    10% {
+      margin-top: 0;
+    }
+    20%,
+    30% {
+      margin-top: -1.5rem;
+    } /* Adjust this for smoother animation */
+    40%,
+    60% {
+      margin-top: -3rem;
+    }
+    70%,
+    80% {
+      margin-top: -1.5rem;
+    }
+    90%,
+    100% {
+      margin-top: 0;
+    }
+  }
+  
+  .animation {
+    animation: text-animation 8s infinite;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .text-shadow {
+    text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+      0 0 3px rgba(255, 255, 255, 0.3);
+  }
+  
+  .border-shadow {
+    box-shadow: #ffffff 0px 1px 3px 0px, rgba(255, 255, 255, 0.3) 0px 1px 2px 0px;
+  }
+  
+
